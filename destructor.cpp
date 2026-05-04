@@ -38,5 +38,6 @@ void angka::cetakData()
 
 int main()
 {
+    angka belajarcpp(3);                //constructor dipanggil
     return 0;
 }

@@ -8,4 +8,14 @@ class mahasiswa
     //deklarasi variabel member
     int id;
     string nama;
+
+    //deklarasi prosedur setID() dan printAll()
+    void setID();
+    void printAll();
+
+    //pembuatan constructor mahasiswa dengan parameter
+    mahasiswa(string pnama) : nama(pnama) 
+    {
+        setID();
+    }
 };

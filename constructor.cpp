@@ -9,3 +9,8 @@ public:
 mahasiswa::mahasiswa() {
     cout << "Constructor dipanggil!" << endl; // Definisi constructor
 };
+
+int main() {
+    mahasiswa mhs; // Pembuatan objek
+    return 0;
+}

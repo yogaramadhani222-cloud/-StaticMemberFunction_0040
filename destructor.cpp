@@ -19,12 +19,21 @@ angka::angka(int i){
     isiData();
 }
 
-angka::~angka()
-{
+angka::~angka() {
     cout << endl;
     cetakData();
     delete[] arr;
     cout << "Alamat array sudah dilepaskan." << endl;
+}
+
+void angka::cetakData()
+{
+    for (int i = 1; i < panjang; i++)
+    {
+        cout << i << " ";
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
 
 int main()
